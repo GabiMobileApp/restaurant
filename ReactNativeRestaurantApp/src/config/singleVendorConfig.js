@@ -37,44 +37,44 @@ export const ConfigProvider = ({ children }) => {
       reservationsTableName: 'reservations',
     },
     onboardingConfig: {
-      welcomeTitle: localized('Welcome to InstaEats'),
+      welcomeTitle: localized('Welcome to Gäbi Boutique Donut & Pastry.'),
       welcomeCaption: localized(
         'Order food from our restaurant and make reservations in real-time.',
       ),
       walkthroughScreens: [
         {
           icon: require('../assets/icons/restaurant-menu.png'),
-          title: localized('Welcome to InstaEats'),
+          title: localized('Welcome to Gäbi Boutique Donut & Pastry.'),
           description: localized(
-            'Log in and order delicious food from our restaurant.',
+            'All handcrafted & ready for your enjoyment. We are committed to making sure that you enjoy a unique doughnut experience like no other, that is why we make all our doughnuts by hand, one detail at a time.',
           ),
         },
         {
           icon: require('../assets/icons/delivery-icon.png'),
-          title: localized('Order Food'),
+          title: localized('Step 1'),
           description: localized(
-            'Hungry? Order food in just a few clicks and we bring it to you...',
+            'Source fresh premium ingredients, incorporating local and seasonal products into our recipes.',
           ),
         },
         {
           icon: require('../assets/icons/calendar-grid-icon.png'),
-          title: localized('Reorder and Reserve'),
+          title: localized('Step 2'),
           description: localized(
-            'Reorder in one click. Reserve a table in a few seconds.',
+            'Craft seasonal flavors using unique house-made glazes, compotes and creams that showcase creativity.',
           ),
         },
         {
           icon: require('../assets/icons/binoculars.png'),
-          title: localized('Order Status'),
+          title: localized('Step 3'),
           description: localized(
-            'Monitor the status of your order directly in the app.',
+            'Make small batches, serving fresh and warm doughnuts all day.',
           ),
         },
         {
           icon: require('../assets/icons/apple.png'),
-          title: localized('Seamless Payments'),
+          title: localized('Step 4'),
           description: localized(
-            'Pay with your credit cards, Apple Pay or Android Pay, with one click.',
+            'Serve with our signature coffee or espresso beverages made with top-quality beans, brewed to perfection.',
           ),
         },
       ],
